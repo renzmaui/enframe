@@ -1,7 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <circle cx="32" cy="32" r="29" fill="#d52e45" stroke="#191919" stroke-width="3"/>
-  <path
-    d="M32 47 16.5 31.8C9.5 24.8 20 14.5 27.2 21.7L32 26.5l4.8-4.8C44 14.5 54.5 24.8 47.5 31.8Z"
-    fill="#fffdf7"
-  />
+<title>EN-FRAME strawberry frame mark</title>
+<rect width="64" height="64" rx="17" fill="#29191e"/>
+<path d="M20 9H10v12M44 9h10v12M10 43v12h10M54 43v12H44" fill="none" stroke="#ffc0d0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32 22c-7-7-16-1-15 8 1 10 11 20 15 23 4-3 14-13 15-23 1-9-8-15-15-8Z" fill="#f18bac"/>
+<path d="M21 22l6-2-2-7 7 5 6-7-1 9 8 2-10 3-3-3-4 3Z" fill="#b7d9a3"/>
+<path d="M32 18c-1-5 1-8 4-10" fill="none" stroke="#b7d9a3" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M19 37c3 8 10 14 13 16 4-3 11-10 14-18-3 3-6 0-8 3-2 3-5 3-7 0-3-4-5 4-8 1-1-1-2-2-4-2Z" fill="#654031"/>
+<g fill="#fff0df"><ellipse cx="25" cy="29" rx="1" ry="2" transform="rotate(-20 25 29)"/><ellipse cx="35" cy="29" rx="1" ry="2" transform="rotate(20 35 29)"/><ellipse cx="30" cy="35" rx="1" ry="2"/><ellipse cx="41" cy="31" rx="1" ry="2" transform="rotate(20 41 31)"/></g>
 </svg>
