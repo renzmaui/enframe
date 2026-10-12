@@ -25,3 +25,11 @@ body { background: radial-gradient(ellipse at 90% 8%, #79374765, transparent 40%
 @media(max-width:760px) { .app { padding: 0 18px; }.topbar { gap: 16px; padding: 22px 0; }.wordmark { font-size: 21px; }.brand-icon { width: 29px; height: 29px; margin-right: 6px; }.fan-tag { display: none; }.hero { padding: 42px 0 32px; }.hero h1 { font-size: clamp(42px,9vw,68px); }.hero-copy { font-size: 13px; }.hero-orbit { display: none; }.editor { grid-template-columns: 1fr; }.preview-column { position: static; }.controls { padding: 22px; }.footer { grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 44px; }.footer-about { grid-column: 1/-1; }.footer-bottom { flex-direction: column; align-items: flex-start; gap: 10px; } }
 @media(max-width:380px) { .controls { padding: 16px; }.hero-tags { gap: 12px; font-size: 8px; }.hero-tags span+span { padding-left: 12px; }.file-types { display: none; }.footer { grid-template-columns: 1fr; } }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { transition: none !important; animation: none !important; } }
+.design-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.design-filters button { padding: 9px 12px; font-size: 11px; }
+.removal-panel { margin-bottom: 16px; padding: 14px; border: 1px solid #b7d9a340; border-radius: 12px; background: #b7d9a308; }
+.removal-toggle { display: flex; align-items: flex-start; gap: 9px; color: #e5efd9; font-size: 12px; line-height: 1.6; cursor: pointer; }
+.removal-toggle input { accent-color: #b7d9a3; margin-top: 4px; flex-shrink: 0; }
+.removal-panel > p { font-size: 10px; line-height: 1.8; color: #cdb8ae; margin-top: 8px; }
+.removal-panel > .removal-status { color: #b7d9a3; }
+.removal-panel > .error { color: #ffc0b9; }
