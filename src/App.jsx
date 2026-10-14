@@ -921,8 +921,8 @@ export default function App() {
             credited to its maker.
           </p>
           <p>
-            Designs belong to their respective creators. Please credit
-            the maker of your chosen design when sharing.
+            Designs belong to their respective creators. Love your design?
+            Give its creator a shout-out when you share!
           </p>
         </div>
 
